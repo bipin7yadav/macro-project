@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    align-items: center;
+    padding: 3rem;
+
+    background-color: rgba(0, 0, 0, 0.19);
+    height: max-content;
+    width: 40vh;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+
+}
+
+.center-text{
+    text-align: center;
+    margin: 1rem;
+}
+#email,
+#p-w,
+#submit{
+    padding: .4rem;
+}
+
+#submit{
+    background-color: skyblue;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+
+#login{
+    background-color: honeydew;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
