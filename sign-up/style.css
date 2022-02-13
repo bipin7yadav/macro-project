@@ -1,0 +1,60 @@
+:root{
+    --primary:skyblue;
+    --secondary: rgba(0, 0, 0, 0.19);
+    --tertiary:honeydew;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    align-items: center;
+    padding: 0 2rem 1rem 2rem;
+
+    background-color: var(--secondary);
+    height: max-content;
+    width: 20rem;
+}
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+
+}
+
+.center-text{
+    text-align: center;
+    margin: .1rem;
+}
+
+
+#submit{
+    background-color: var(--primary);
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: .2rem;
+}
+
+
+#sign-up{
+    background-color: var(--tertiary);
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 820px) {
+
+    html{
+        font-size: 10px;
+        width: 98%;
+    }
+
+}
