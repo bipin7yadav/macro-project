@@ -4,12 +4,12 @@
 
 :root{
     --light-grey-color:lightgrey;
-    --black-color:black;
-    --white-color:white;
-    --dark-gray-color:darkgray;
-    --azure-color:azure;
-    --whitesmoke-color:whitesmoke;
-    --alice-blue-color:aliceblue;
+    --black-color: black;
+    --white-color: white;
+    --dark-gray-color: darkgray;
+    --azure-color: azure;
+    --whitesmoke-color: whitesmoke;
+    --alice-blue-color: aliceblue;
 }
 
 .container{
