@@ -1,15 +1,15 @@
 *{
     box-sizing: border-box;
 }
-
 :root{
     --light-grey-color:lightgrey;
-    --black-color: black;
-    --white-color: white;
-    --dark-gray-color: darkgray;
-    --azure-color: azure;
-    --whitesmoke-color: whitesmoke;
-    --alice-blue-color: aliceblue;
+    --black-color:black;
+    --white-color:white;
+    --dark-gray-color:darkgray;
+    --azure-color:azure;
+    --whitesmoke-color:whitesmoke;
+    --alice-blue-color:aliceblue;
+    --skyblue-color:skyblue;
 }
 
 .container{
@@ -29,8 +29,10 @@
     border-radius: .4rem;
     margin: .8rem;
     background-color: var(--dark-gray-color);
-    color: var(--azure-color) ;
+    color: var(--azure-color);
 }
+
+
 .imp{
     position: relative;
     display: flex;
@@ -123,7 +125,7 @@ img{
 .data{
     width: 100%;
     text-align: center;
-    background-color: var(--black-color);
+    background-color:var(--black-color);
     color:var(--white-color) ;
     padding: .3rem;
     display: block;
