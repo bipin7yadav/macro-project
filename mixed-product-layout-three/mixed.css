@@ -32,10 +32,23 @@
     color: var(--azure-color) ;
 }
 .imp{
+    position: relative;
     display: flex;
     justify-content: space-between;
-    width: 20%;
+    width: 20rem;
+    padding: .5rem;
 }
+
+.badge{
+    position: absolute;
+    padding: .2rem .3rem .2rem .3rem;
+    top: 0;
+    margin-top: .5rem;
+    margin-left: -.5rem;
+    border-radius: 50%;
+    background-color: var(--skyblue-color);
+}
+
 .body{
 
     display: flex;
