@@ -13,7 +13,7 @@
     background-color: var(--white-color);
     margin: .9rem;
 }
-#header{
+.header{
     display: flex;
     justify-content: space-around;
     background-color: var(--black-color);
