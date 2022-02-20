@@ -29,6 +29,7 @@
     color: var(--azure-color) ;
 }
 .imp{
+    position:relative;
     display: flex;
     justify-content: space-between;
     width: 30%;
