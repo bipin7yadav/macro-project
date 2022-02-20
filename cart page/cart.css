@@ -33,6 +33,16 @@
     justify-content: space-between;
     width: 30%;
 }
+
+.badge{
+    position: absolute;
+    padding: .2rem .3rem .2rem .3rem;
+    top: 0;
+    margin-top: .5rem;
+    margin-left: -.5rem;
+    border-radius: 50%;
+    background-color: var(--skyblue-color);
+}
 * {
     box-sizing: border-box;
   }
