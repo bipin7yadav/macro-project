@@ -1,13 +1,52 @@
-body{
+:root{
+    --light-grey-color:lightgrey;
+    --black-color:black;
+    --azure-color:azure;
+    --skyblue-color:skyblue;
+}
+.body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--black-color);
+    margin: .3rem;
+    color: var(--white-color);
+    border-radius: .4rem;
+}
+
+.imp{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+    padding: .5rem;
+}
+
+.badge{
+    position: absolute;
+    padding: .2rem .3rem .2rem .3rem;
+    top: 0;
+    margin-top: .5rem;
+    margin-left: -.5rem;
+    border-radius: 50%;
+    background-color: var(--skyblue-color);
+}
+
+
+
 .container{
+    margin: 2rem 0rem 0rem 33%;
+    display: flex;
     align-items: center;
+
     padding: 3rem;
 
-    background-color: rgba(0, 0, 0, 0.19);
+    background-color: var(--light-grey-color);
     height: max-content;
     width: 40vh;
 }
@@ -16,6 +55,10 @@ body{
     flex-direction: column;
     height: max-content;
 
+}
+
+.info{
+    padding-left: 1.8rem;
 }
 
 .center-text{
@@ -29,12 +72,12 @@ body{
 }
 
 #submit{
-    background-color: skyblue;
+    background-color: var(--skyblue-color);
 }
 
 .flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
@@ -48,7 +91,7 @@ ul{
 
 
 #login{
-    background-color: honeydew;
+    background-color: var(--azure-color);
     width: 50%;
     text-align: center;
     text-decoration: none;
