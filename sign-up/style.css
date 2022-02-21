@@ -41,6 +41,19 @@
     background-color: var(--skyblue-color);
 }
 
+.search{
+    border-radius: .4rem;
+    margin: .8rem;
+    background-color: var(--darkgray);
+    color: var(--white) ;
+}
+
+.imp{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
 
 
 .container{
