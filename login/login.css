@@ -2,6 +2,7 @@
     --light-grey-color:lightgrey;
     --black-color:black;
     --azure-color:azure;
+    --darkgray:darkgray;
     --skyblue-color:skyblue;
 }
 .body{
@@ -17,6 +18,13 @@
     margin: .3rem;
     color: var(--white-color);
     border-radius: .4rem;
+}
+
+.search{
+    border-radius: .4rem;
+    margin: .8rem;
+    background-color: var(--darkgray);
+    color: var(--white) ;
 }
 
 .imp{
